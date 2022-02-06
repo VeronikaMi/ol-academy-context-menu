@@ -1,0 +1,28 @@
+.menu {
+  margin: 20%;
+  width: 20%;
+  height: 100vh;
+
+  ul {
+    list-style: none;
+    font-size: 20px;
+
+    #first {
+      background-color: aqua;
+    }
+
+    #second {
+      background-color: indianred;
+    }
+
+    li {
+      padding: 15px;
+      border-bottom: 1px solid #333;
+      cursor: pointer;
+
+      &:hover {
+        font-weight: bold;
+      }
+    }
+  }
+}
