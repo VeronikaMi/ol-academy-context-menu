@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import "./submenu.scss";
+import "./Submenu.scss";
 
 function Submenu({ text, handleClick }) {
   const menu = useRef();
